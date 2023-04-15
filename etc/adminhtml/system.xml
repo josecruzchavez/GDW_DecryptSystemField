@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="gdwcoremodulelist">
+            <group id="gdwdecryptsystempath" translate="label" type="text" sortOrder="98" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>GDW DecryptSystemField</label>
+                <field id="gdwdecryptsystemfieldinfo" type="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>GDW\DecryptSystemField\Block\Adminhtml\System\ModuleInfoFull</frontend_model>
+                </field>
+            </group>
+        </section>
+        <section id="gdwcoremoduletools">
+            <group id="gdwcommands">
+                <field id="gdwdecryptedsystemtoolsone" type="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>GDW\DecryptSystemField\Block\Adminhtml\System\ModuleToolsCommandOne</frontend_model>
+                </field>
+                <field id="gdwdecryptedsystemtoolstwo" type="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>GDW\DecryptSystemField\Block\Adminhtml\System\ModuleToolsCommandTwo</frontend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
