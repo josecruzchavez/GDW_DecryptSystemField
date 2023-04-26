@@ -64,7 +64,7 @@ class DecryptField extends Command
         if ($path){
             $store = $storeId;  
             if($storeId == null){
-                $store = 0; $output->writeln('<fg=gray>Remember to use --store_id={value} to get the field value of a specific store view.</>');
+                $store = 0; $output->writeln('<fg=white>Remember to use --store_id={value} to get the field value of a specific store view.</>');
             }
 
             $field = $this->helperData->getConfigValue($path, $store);            
