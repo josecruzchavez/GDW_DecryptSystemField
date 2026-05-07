@@ -6,7 +6,7 @@ Se agregan 2 nuevos comandos:
 2.- Permite desencriptar un string agregado directamente en consola.
 
 ## Compatibilidad
-✓ Magento 2.3.x, ✓ Magento 2.4.x
+✓ Magento 2.4.0 a 2.4.3 (rama 4.x)
 
 ![gdw_decryptsystemfield_01](https://gestiondigitalweb.com/github_assets/gdw_decryptsystemfield/gdw_decrypt_01.png)
 ![gdw_decryptsystemfield_02](https://gestiondigitalweb.com/github_assets/gdw_decryptsystemfield/gdw_decrypt_02.png)
